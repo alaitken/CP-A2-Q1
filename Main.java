@@ -6,7 +6,7 @@ public class Main {
         // } else {
         //     System.out.println("Please provide the number of minutes for the simulation!");
         // }
-        QueueSimulator simulation = new QueueSimulator(10);
+        QueueSimulator simulation = new QueueSimulator(2*60*60);
         simulation.run();
     } 
 
